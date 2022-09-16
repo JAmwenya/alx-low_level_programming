@@ -8,11 +8,11 @@ int main(void)
 {
 	int i;
 
-	printf("Infinite loop incoming :(\n");/** this part of the code that is causing the output to go into an infinite loop */
+	printf("Infinite loop incoming :(\n");
 
 	i = 0;
 
-	while (i < 10)
+	while (i < 10)/** this part of the code that is causing the output to go into an infinite loop */ 
 	{
 		putchar(i);
 	}
