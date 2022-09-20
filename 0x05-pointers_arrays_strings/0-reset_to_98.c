@@ -6,17 +6,7 @@
  *
  * Return: Always 0.
 */
-int main(void)
+void reset_to_98(int *n)
 {
-
-	int i = 98;
-	int *n;
-
-	n = &i;
-
-	{
-	printf("int value of pointer %d\n", *n);
-	}
-
-	return (0);
+	*n = 98;	
 }
