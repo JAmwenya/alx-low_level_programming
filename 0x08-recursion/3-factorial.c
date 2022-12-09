@@ -1,4 +1,4 @@
-##include "main.h"
+#include "main.h"
 
 /**
 * factoral - returns the factoral of a given number
