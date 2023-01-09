@@ -1,1 +1,1 @@
-this directory contains solutions to ALX structures and typdef tasks
+this directory contains some solutions to ALX structures and typdef tasks
