@@ -1,8 +1,10 @@
 #include "main.h"
 
 /**
- * _strlen - calculates legnth of apre-fix substring
- * Return: number of bytes
+ * _strspn - calculates legnth of substring pointed to
+ * @s: string to be measured
+ * @accept: bytes to be used
+ * Return: number of bytes from accept
  */
 unsigned int _strspn(char *s, char *accept)
 {
