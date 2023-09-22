@@ -1,5 +1,4 @@
 #!/bin/bash
-gcc -Wall -pedantic -Werror -Wextra -c *.c
-ar -rc liball.a *.o
-ranlib liball.a
-gcc -o main main.o -L. liball.a
+gcc -Wall -pedantic -Werror -Wextra -L. 0-main.c -ldynamic -o len
+gcc -shared -o liball.so *.o
+nm -D liball.so
