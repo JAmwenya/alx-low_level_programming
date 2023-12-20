@@ -1,0 +1,4 @@
+#ifdef BUFFER_PI
+#define BUFFER_PI 3.14159265359
+
+#endif /*BUFFEER_PI*/
