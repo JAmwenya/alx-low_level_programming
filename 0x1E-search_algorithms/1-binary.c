@@ -28,6 +28,14 @@ int binary_search(int *array, size_t size, int value)
 		else
 			smallest_index = mid - 1;
 
+	for (size_t i = largest_index; i <= smallest_index; i++)
+	{
+		printf("%d", array[i]);
+		if (i < smallest_index)
+			printf(",");
+	}
+	printf("\n");
+
 	if (array == NULL)
 		return (-1);
 	}
