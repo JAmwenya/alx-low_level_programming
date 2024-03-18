@@ -1,4 +1,4 @@
 #ifdef BUFFER_SIZE
 #define BUFFER_SIZE 1024
 
-#endif /*BUFFEER_SIZE*/
+#endif /*BUFFER_SIZE*/
